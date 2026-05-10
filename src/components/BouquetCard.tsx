@@ -17,6 +17,9 @@ export function BouquetCard({ bouquet }: BouquetCardProps) {
         <div className="absolute left-4 top-4">
           <Badge variant="sage">Lily-Free</Badge>
         </div>
+        <div className="absolute bottom-4 left-4 right-4 rounded-[1.25rem] border border-white/50 bg-white/38 px-4 py-3 text-xs font-semibold uppercase tracking-[0.18em] text-stone-800 shadow-lg backdrop-blur">
+          {bouquet.availability}
+        </div>
       </div>
       <div className="space-y-4 p-6">
         <div className="flex items-start justify-between gap-4">
@@ -28,9 +31,14 @@ export function BouquetCard({ bouquet }: BouquetCardProps) {
           </p>
         </div>
         <p className="text-sm leading-7 text-stone-600">{bouquet.description}</p>
-        <p className="text-xs font-bold uppercase tracking-[0.2em] text-rose-900/55">
-          {bouquet.palette}
-        </p>
+        <div className="flex flex-wrap gap-2">
+          <span className="rounded-full bg-blush-50 px-3 py-1 text-[0.65rem] font-bold uppercase tracking-[0.18em] text-rose-900/60">
+            {bouquet.occasion}
+          </span>
+          <span className="rounded-full bg-sage-50 px-3 py-1 text-[0.65rem] font-bold uppercase tracking-[0.18em] text-sage-900/70">
+            {bouquet.palette}
+          </span>
+        </div>
       </div>
     </article>
   );

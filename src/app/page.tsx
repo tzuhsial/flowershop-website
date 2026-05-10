@@ -116,7 +116,7 @@ export default function Home() {
               Mock launch menu shown for positioning, pricing, and product direction.
             </p>
           </div>
-          <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-5">
+          <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {bouquets.map((bouquet) => (
               <BouquetCard key={bouquet.name} bouquet={bouquet} />
             ))}

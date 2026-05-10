@@ -4,6 +4,8 @@ export type Bouquet = {
   price: string;
   image: string;
   palette: string;
+  occasion: string;
+  availability: string;
 };
 
 export const bouquets: Bouquet[] = [
@@ -12,40 +14,60 @@ export const bouquets: Bouquet[] = [
     description:
       "Garden roses, lisianthus, ranunculus, and airy seasonal stems arranged with a soft neighborhood-luxury feel.",
     price: "$95–$145",
-    image: "/images/bouquet-newton-weekend.svg",
+    image: "/images/boutique-newton-weekend.svg",
     palette: "Blush, oat, cream",
+    occasion: "Host gift",
+    availability: "Weekend drop",
+  },
+  {
+    name: "Mews & Meadow",
+    description:
+      "A loosened meadow-style bouquet with blush stock, snapdragon shapes, textural grasses, and cat-conscious seasonal stems.",
+    price: "$85–$130",
+    image: "/images/boutique-mews-meadow.svg",
+    palette: "Meadow blush, sage",
+    occasion: "Everyday luxury",
+    availability: "Limited stems",
   },
   {
     name: "Tea House Bouquet",
     description:
-      "Quiet, contemplative textures with café-au-lait tones, delicate grasses, and sculptural stems.",
-    price: "$85–$135",
-    image: "/images/bouquet-tea-house.svg",
+      "Quiet, contemplative textures with café-au-lait tones, delicate grasses, and sculptural stems for calm interiors.",
+    price: "$90–$140",
+    image: "/images/boutique-tea-house.svg",
     palette: "Tea, ivory, mauve",
+    occasion: "Quiet gesture",
+    availability: "Preorder only",
   },
   {
-    name: "Seasonal Local",
+    name: "Sunday Table",
     description:
-      "A limited arrangement guided by market finds, Massachusetts-grown stems, and the week’s best color story.",
-    price: "$75–$125",
-    image: "/images/bouquet-seasonal-local.svg",
-    palette: "Market-led",
+      "A low, architectural table arrangement for dinner at home, built with lily-free seasonal flowers and refined foliage.",
+    price: "$120–$180",
+    image: "/images/boutique-sunday-table.svg",
+    palette: "Linen, rose, olive",
+    occasion: "Entertaining",
+    availability: "By request",
   },
   {
-    name: "Cat Safe Bouquet",
+    name: "The Cat Safe Signature",
     description:
-      "Our signature lily-free design with pet-conscious flower selections and an elegant, low-fragrance profile.",
-    price: "$90–$150",
-    image: "/images/bouquet-cat-safe.svg",
+      "The studio’s signature lily-free bouquet with premium seasonal focal flowers and an elegant, low-fragrance profile.",
+    price: "$100–$160",
+    image: "/images/boutique-signature.svg",
     palette: "Cream, sage, blush",
+    occasion: "Signature order",
+    availability: "Weekly favorite",
   },
   {
     name: "Sympathy & Comfort",
     description:
       "Soft, graceful florals for tender moments, composed without lilies and finished with a handwritten note.",
-    price: "$110–$180",
-    image: "/images/bouquet-sympathy-comfort.svg",
+    price: "$110–$185",
+    image: "/images/boutique-sympathy-comfort.svg",
     palette: "Ivory, linen, fog",
+    occasion: "Comfort gift",
+    availability: "48-hour notice",
   },
 ];
 
