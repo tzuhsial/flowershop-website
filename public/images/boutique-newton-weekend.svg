@@ -1,0 +1,34 @@
+<svg width="900" height="1125" viewBox="0 0 900 1125" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="1125">
+      <stop stop-color="#FBF6EE"/>
+      <stop offset="0.52" stop-color="#F8ECE8"/>
+      <stop offset="1" stop-color="#EEE3D4"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(450 426) rotate(90) scale(370 280)">
+      <stop stop-color="#FFFDF8"/>
+      <stop offset="1" stop-color="#FFFDF8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1125" fill="url(#bg)"/>
+  <rect x="76" y="78" width="748" height="969" rx="58" fill="url(#halo)" opacity="0.9"/>
+  <path d="M452 967C438 789 446 627 486 388" stroke="#827164" stroke-width="13" stroke-linecap="round"/>
+  <path d="M360 909C418 760 488 612 604 415" stroke="#A7B49D" stroke-width="22" stroke-linecap="round"/>
+  <path d="M562 916C529 764 512 612 518 376" stroke="#A7B49D" stroke-width="20" stroke-linecap="round"/>
+  <path d="M298 622C420 548 536 542 654 604" stroke="#C6D1BD" stroke-width="30" stroke-linecap="round"/>
+  <path d="M260 520C384 471 508 481 653 546" stroke="#DDE5D4" stroke-width="24" stroke-linecap="round"/>
+  <g opacity="0.98">
+    <circle cx="356" cy="360" r="96" fill="#EFD5CF"/>
+    <circle cx="443" cy="312" r="88" fill="#FBF6EE"/>
+    <circle cx="535" cy="344" r="95" fill="#F6CFC3"/>
+    <circle cx="604" cy="450" r="108" fill="#D8AA9D"/>
+    <circle cx="428" cy="493" r="118" fill="#F5EADC"/>
+    <circle cx="334" cy="490" r="74" fill="#FBF6EE"/>
+  </g>
+  <g opacity="0.86">
+    <ellipse cx="278" cy="664" rx="110" ry="43" transform="rotate(-32 278 664)" fill="#DDE5D4"/>
+    <ellipse cx="650" cy="660" rx="124" ry="47" transform="rotate(30 650 660)" fill="#C6D1BD"/>
+    <ellipse cx="636" cy="283" rx="94" ry="35" transform="rotate(-26 636 283)" fill="#DDE5D4"/>
+  </g>
+  <path d="M188 988C326 1033 474 1046 666 997" stroke="#FFF9F1" stroke-width="2" opacity="0.8"/>
+</svg>

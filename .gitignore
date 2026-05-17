@@ -1,0 +1,12 @@
+.next
+node_modules
+out
+dist
+build
+.DS_Store
+*.log
+tsconfig.tsbuildinfo
+.env
+.env*
+!.env.example
+public/screenshots
